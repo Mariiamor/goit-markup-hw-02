@@ -2,11 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     text-decoration: none;
-    color: #2E2F42;
-    background-color: #E5E5E5;
-    line-height: 1,5;
+    color: #434455;
+    background-color: #FFFFFF;
+    line-height: 1.5;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     font-weight: 400;
 
 }
@@ -16,32 +16,33 @@ header {
     font-family: inherit;
 }
 .nav-list{
-
+line-height: 1.17;
 text-decoration: none;
 font-size: 14px;
-
+letter-spacing: 0.03em;
 }
 
 
 .logo {
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: #4D5AE5;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 1,17 ;
-    letter-spacing: 4%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
  
 }
 .accent {
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
-    line-height: 1,17;
     color: #2E2F42;
-    letter-spacing: 4%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .link-header {
     font-weight: 500;
@@ -52,20 +53,9 @@ font-size: 14px;
 }
 .link-header:hover {
     color: #404bbf;}
-.link-header-studio{
-    font-weight: 500;
-    font-size: 14px;
-        color: inherit;
-        text-decoration: none;
-        line-height: inherit;
-}
-.link-header-studio:hover{
-color: #404bbf;
-}
-.link-header-studio:active {
+  .link-header:focus{
     color: #404bbf;
-    text-decoration: underline;
-}
+  }
 
 ul , li {
     list-style-type: none;
@@ -73,24 +63,28 @@ ul , li {
     font-size: 12px;
 }
 .link-header-std 
-
+address {
+    font-style: normal;
+}
 .address-header {
     font-weight: inherit;
     font-size: 12px;
-    line-height: 1,5px;
-    letter-spacing: 2%;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
 }
 .mailto{
-color: inherit;
+color: #434455;
 text-decoration: none;
 font-style: normal;
 font-family: 'Roboto', sans-serif;
-letter-spacing: 4%;
+letter-spacing: 0.02em;
+font-size: 16px;
+line-height: 1.5;
 }
 .mailto:hover{
     color: #404bbf ;
 }
-.mailto:active {
+.mailto:focus {
     color: #404bbf;
 }
 .tel{
@@ -98,69 +92,57 @@ letter-spacing: 4%;
     font-family: 'Roboto', sans-serif;
         text-decoration: none;
         font-style: normal;
-        letter-spacing: 4%;
-}
-.tel:hover{
-    color: #404bbf;
-}
-.tel:active {
-    color: #404bbf;
+        letter-spacing: 0.04em;
 }
 .baner{
     background-color: #2E2F42;
 }
 .main-title{
     color: #FFFFFF;
-    font-size: 60px;
-    line-height: 1,07;
+    font-size: 56px;
+    line-height: 1.07;
     text-align: center;
     font-weight: 700;
     font-style: inherit;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 .baner-button{
     background-color: #4D5AE5 ;
     font-weight: 500;
-    line-height: 1,18;
+    line-height: 1.5;
     text-align: center;
     font-style: inherit;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     cursor: pointer;
+    color: #FFFFFF;
 }
 .baner-button:hover{
     background-color: #404bbf;
 }
-h3{
-    font-size: 20;
-    font-weight: 500;
-    line-height: 1,2 ;
-    font-style: inherit;
-    text-align: center;
-    letter-spacing: 2%;
-    color: inherit;
+.baner-button:focus{
+    background-color: #404bbf;
 }
 
-.dir-strat{
+.dir{font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-style: inherit;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: inherit;
     text-align: left;
 }
-.dir-punkt{
-text-align: left;
-}
-.dir-dil{
-text-align: left;
-}
-.dir-tech{
-text-align: left;
-}
-p{
+
+.dir-text{
     color: #434455;
     text-align: center;
     font-weight: inherit;
     font-style: inherit;
-    letter-spacing: 2%;
-}
-.dir-strat-text, .dir-punkt-text, .dir-dil-text, .dir-tech-text {
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
     text-align: left;
+
 }
 .team-baner{
     background-color: #F4F4FD ;
@@ -170,60 +152,26 @@ h2{
     font-size: 36px;
     font-weight: 700;
     font-style: inherit;
-    line-height: 1,11;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     color: inherit;
+    text-transform: capitalize;
 
 }
-.team-guerrero{
-    background-color: #FFFFFF ;
+.titletwo{
+    text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: inherit;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: inherit;
+        text-transform: capitalize;
+        color: #2E2F42;
+  
 }
-.team-ford{
-    background-color: #FFFFFF;
-}
-.team-garcia{
-background-color: #FFFFFF;
-}
-.team-wilson{
-background-color: #FFFFFF;
-}
-.port-app-title {
-    text-align: left;
-}
-.port-app-text {
-    text-align: left;
-}
-.port-pay-title{
-    text-align: left;
-}
-.port-pay-text {
-    text-align: left;
-}
-.port-med-title {
-    text-align: left;
-}
-.port-med-text{
-    text-align: left;
-}
-.port-taxi-title{
-    text-align: left;
-}
-.port-taxi-text{
-    text-align: left;
-}
-.port-ill-title{
-    text-align: left;
-}
-.port-ill-text{
-   text-align: left;
-}
-.port-courses-title{
-    text-align: left;
-}
-.port-courses-text{
-    text-align: left;
-}
-footer {
+
+.down {
     background-color: #2E2F42;
     font-family: inherit;
 
@@ -234,11 +182,14 @@ footer {
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
-    line-height: 1,17;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .text-footer{
     color: #F4F4FD;
     text-align: left;
     font-weight: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
 }
