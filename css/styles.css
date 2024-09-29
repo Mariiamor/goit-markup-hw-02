@@ -1,21 +1,144 @@
 body {
-    font-family: "Roboto" sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: #2E2F42;
+    background-color: #E5E5E5;
+    line-height: 1,5;
+    font-size: 16px;
+    letter-spacing: normal;
+
+}
+header {
+    text-decoration: none;
+    color: #2E2F42;
 }
 .nav-list{
-color: #2E2F42;
-background-color: #E7E9FC ;
+
+text-decoration: none;
 
 }
 
 .logo {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #4D5AE5;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1,17 ;
+ 
+}
+.accent {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1,17;
+    color: #2E2F42;
+}
+.link-header {
+    font-weight: 400;
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: inherit;
+}
+ul , li {
+    list-style-type: none;
+    color: #2E2F42;
+}
+.address-header {
+    font-weight: 300;
+}
+.mailto{
+color: #2E2F42;
+text-decoration: none;
+font-style: normal;
+font-family: 'Roboto', sans-serif;
+}
+.tel{
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-style: normal;
+}
+.baner{
+    background-color: #2E2F42;
+
 
 }
-.logoweb {
-    font-family: "Raleway" sans-serif;
+.main-title{
+    color: #FFFFFF;
+    font-size: 56;
+    line-height: 1,07;
+    text-align: center;
+    font-weight: 700;
+    font-style: inherit;
+
+}
+.baner-button{
+    background-color: #4D5AE5 ;
+    font-weight: 500;
+    line-height: 1,18;
+    text-align: center;
+    font-style: inherit;
+}
+h3{
+    font-size: 20;
+    font-weight: 500;
+    line-height: 1,2 ;
+    font-style: inherit;
+    text-align: center;
+}
+.directions{
 
 
+}
+.dir-strat{
+    text-align: left;
+
+}
+.dir-punkt{
+text-align: left;
+}
+.dir-dil{
+text-align: left;
+}
+.dir-tech{
+text-align: left;
+}
+p{
+    color: #434455;
+    text-align: center;
+    font-weight: 400;
+    font-style: inherit;
+}
+.dir-strat-text, .dir-punkt-text, .dir-dil-text, .dir-tech-text {
+    text-align: left;
+}
+.team-baner{
+    background-color: #F4F4FD ;
+}
+h2{
+    text-align: center;
+    font-size: 36;
+    font-weight: 700;
+    font-style: inherit;
+    line-height: 1,11;
+
+}
+.team {
+
+}
+.team-guerrero{
+    background-color: #FFFFFF ;
+}
+.team-ford{
+    background-color: #FFFFFF;
+}
+.team-garcia{
+background-color: #FFFFFF;
+}
+.team-wilson{
+background-color: #FFFFFF;
 }
