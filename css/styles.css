@@ -64,8 +64,6 @@ font-family: 'Roboto', sans-serif;
 }
 .baner{
     background-color: #2E2F42;
-
-
 }
 .main-title{
     color: #FFFFFF;
@@ -74,7 +72,6 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: 700;
     font-style: inherit;
-
 }
 .baner-button{
     background-color: #4D5AE5 ;
@@ -90,13 +87,9 @@ h3{
     font-style: inherit;
     text-align: center;
 }
-.directions{
 
-
-}
 .dir-strat{
     text-align: left;
-
 }
 .dir-punkt{
 text-align: left;
@@ -125,9 +118,6 @@ h2{
     font-weight: 700;
     font-style: inherit;
     line-height: 1,11;
-
-}
-.team {
 
 }
 .team-guerrero{
