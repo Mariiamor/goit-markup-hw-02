@@ -6,18 +6,22 @@ body {
     background-color: #E5E5E5;
     line-height: 1,5;
     font-size: 16px;
-    letter-spacing: normal;
+    letter-spacing: 2%;
+    font-weight: 400;
 
 }
 header {
     text-decoration: none;
-    color: #2E2F42;
+    color: inherit;
+    font-family: inherit;
 }
 .nav-list{
 
 text-decoration: none;
+font-size: 14px;
 
 }
+
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -27,6 +31,7 @@ text-decoration: none;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1,17 ;
+    letter-spacing: 4%;
  
 }
 .accent {
@@ -36,42 +41,82 @@ text-decoration: none;
     text-decoration: none;
     line-height: 1,17;
     color: #2E2F42;
+    letter-spacing: 4%;
 }
 .link-header {
-    font-weight: 400;
-    color: #2E2F42;
+    font-weight: 500;
+    color: inherit;
     text-decoration: none;
     line-height: inherit;
+    font-size: 14px;
 }
+.link-header:hover {
+    color: #404bbf;}
+.link-header-studio{
+    font-weight: 500;
+    font-size: 14px;
+        color: inherit;
+        text-decoration: none;
+        line-height: inherit;
+}
+.link-header-studio:hover{
+color: #404bbf;
+}
+.link-header-studio:active {
+    color: #404bbf;
+    text-decoration: underline;
+}
+
 ul , li {
     list-style-type: none;
-    color: #2E2F42;
+    color: inherit;
+    font-size: 12px;
 }
+.link-header-std 
+
 .address-header {
-    font-weight: 300;
+    font-weight: inherit;
+    font-size: 12px;
+    line-height: 1,5px;
+    letter-spacing: 2%;
 }
 .mailto{
-color: #2E2F42;
+color: inherit;
 text-decoration: none;
 font-style: normal;
 font-family: 'Roboto', sans-serif;
+letter-spacing: 4%;
+}
+.mailto:hover{
+    color: #404bbf ;
+}
+.mailto:active {
+    color: #404bbf;
 }
 .tel{
-    color: #2E2F42;
+    color: inherit;
     font-family: 'Roboto', sans-serif;
         text-decoration: none;
         font-style: normal;
+        letter-spacing: 4%;
+}
+.tel:hover{
+    color: #404bbf;
+}
+.tel:active {
+    color: #404bbf;
 }
 .baner{
     background-color: #2E2F42;
 }
 .main-title{
     color: #FFFFFF;
-    font-size: 56;
+    font-size: 60px;
     line-height: 1,07;
     text-align: center;
     font-weight: 700;
     font-style: inherit;
+    letter-spacing: 2%;
 }
 .baner-button{
     background-color: #4D5AE5 ;
@@ -79,6 +124,11 @@ font-family: 'Roboto', sans-serif;
     line-height: 1,18;
     text-align: center;
     font-style: inherit;
+    letter-spacing: 4%;
+    cursor: pointer;
+}
+.baner-button:hover{
+    background-color: #404bbf;
 }
 h3{
     font-size: 20;
@@ -86,6 +136,8 @@ h3{
     line-height: 1,2 ;
     font-style: inherit;
     text-align: center;
+    letter-spacing: 2%;
+    color: inherit;
 }
 
 .dir-strat{
@@ -103,8 +155,9 @@ text-align: left;
 p{
     color: #434455;
     text-align: center;
-    font-weight: 400;
+    font-weight: inherit;
     font-style: inherit;
+    letter-spacing: 2%;
 }
 .dir-strat-text, .dir-punkt-text, .dir-dil-text, .dir-tech-text {
     text-align: left;
@@ -114,10 +167,12 @@ p{
 }
 h2{
     text-align: center;
-    font-size: 36;
+    font-size: 36px;
     font-weight: 700;
     font-style: inherit;
     line-height: 1,11;
+    letter-spacing: 2%;
+    color: inherit;
 
 }
 .team-guerrero{
@@ -131,4 +186,59 @@ background-color: #FFFFFF;
 }
 .team-wilson{
 background-color: #FFFFFF;
+}
+.port-app-title {
+    text-align: left;
+}
+.port-app-text {
+    text-align: left;
+}
+.port-pay-title{
+    text-align: left;
+}
+.port-pay-text {
+    text-align: left;
+}
+.port-med-title {
+    text-align: left;
+}
+.port-med-text{
+    text-align: left;
+}
+.port-taxi-title{
+    text-align: left;
+}
+.port-taxi-text{
+    text-align: left;
+}
+.port-ill-title{
+    text-align: left;
+}
+.port-ill-text{
+   text-align: left;
+}
+.port-courses-title{
+    text-align: left;
+}
+.port-courses-text{
+    text-align: left;
+}
+footer {
+    background-color: #2E2F42;
+    font-family: inherit;
+
+}
+.accent-footer{
+    color: #F4F4FD;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1,17;
+}
+.text-footer{
+    color: #F4F4FD;
+    text-align: left;
+    font-weight: inherit;
+
 }
